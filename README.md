@@ -6,9 +6,9 @@ Test driven development is a methodology/technique/process in which development
 is driven by tests. In other words, we can say that TDD is a design technique
 which can be used while writing code.
 
-In TDD, you first start writing tests before making any code changes. And then
+In TDD, you first start writing tests before making any code changes, then you go and 
 write new functional code or refactor that code to make sure tests start
-passing. It is a rapid cycle of testing, coding, and refactoring.
+passing. It is a kind of recurring process of testing, coding, and refactoring.
 
 ![My Image](images/tdd_process.png)
 
@@ -31,8 +31,8 @@ General trend while writing JUnits:
 * Easier to maintain by Anyone
 * Easier to refactor by Anyone
 * High test coverage
-* Improve overall team collaboration
-* Increase confidence that the code works as expected
+* Collaboration
+* Confidence
 
 ##Disadvantages of TDD:
 
@@ -61,7 +61,7 @@ Here comes ZOMBIES to help us:
 
 ![My Image](images/zombies.png)
 
-You can start with a few very basic tests and then proceed covering different 
+You can start with a few very basic tests and then proceed by covering different 
 scenarios, boundary behaviors, interfaces and exception conditions.
 Most important point is to test the behaviour of the APIs, methods.
 
